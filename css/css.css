@@ -121,7 +121,7 @@ body{
 /*右侧内容部分*/
 .content .rightpart{
     width: 30%;
-    height: 600px;
+    height: 900px;
     margin-left: 70%;
     margin-top: 10px;
 }
@@ -130,4 +130,20 @@ body{
     height: 600px;
     background: #fff;
     margin-left: 10px;
+}
+.content .rightpart .rightcontent h4{
+    text-align: center;
+    line-height: 75px;
+}
+.content .rightpart .rightcontent a{
+    margin-right: 15%;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    text-indent: 40px;
+    color: #494949;
+    display: block;
+}
+.content .rightpart .rightcontent a:hover{
+    color: #fa91b0
 }
