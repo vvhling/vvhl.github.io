@@ -115,7 +115,7 @@ body{
     line-height: 25px;
     color: #494949;
 }
-.content h4{
+.content .leftpart h4{
     line-height: 26px;
 }
 /*右侧内容部分*/
