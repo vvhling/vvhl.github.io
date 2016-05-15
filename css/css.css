@@ -133,6 +133,27 @@ body{
     height: 170px;
     overflow: hidden;
 }
+.content .leftpart .article_footer{
+    width: 100%;
+    height: 60px;
+}
+.content .leftpart .article_footer dl{
+    margin-right: 8%;
+}
+.content .leftpart .article_footer dd{
+    width: 46px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+}
+.content .leftpart .article_footer dd span{
+    color: #bbb;
+    font-size: 12px;
+}
+.content .leftpart .article_footer .eyescount{
+    margin-top: 16px;
+    margin-left: -26px;
+}
 /*右侧内容部分*/
 .content .rightpart{
     width: 30%;
