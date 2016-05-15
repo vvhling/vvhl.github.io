@@ -70,8 +70,8 @@ body{
     margin-right: 9%;
 }
 .head .search .searchin{
-    width: 80%;
-    height: 33px;
+    width: 98%;
+    height: 30px;
     border: solid 1px #000;
     border-radius: 100px;
     background: #fff;
@@ -136,7 +136,7 @@ body{
     line-height: 75px;
 }
 .content .rightpart .rightcontent a{
-    margin-right: 15%;
+    margin-right: 12%;
     line-height: 28px;
     text-align: center;
     font-size: 14px;
