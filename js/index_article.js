@@ -14,4 +14,5 @@ function changeNavOut(){
 	article.style.borderTop =  "solid 1px #000";
 	article.style.borderRight =  "solid 1px #000";
 	article.style.width = "98%";
+	
 }

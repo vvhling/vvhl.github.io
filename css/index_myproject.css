@@ -48,14 +48,14 @@ body{
     height: 36px;
     border-bottom: solid 1px #000;
 }
-.head .nav .home:hover,.head .nav .article:hover,.head .nav .myproject:hover{
+.head .nav .home:hover,.head .nav .article:hover,.head .nav .star:hover{
     width: 98%;
     border-left: solid 1px #000;
     border-top: solid 1px #000;
     border-right: solid 1px #000;
     border-bottom: none;
 }
-.head .nav .star{
+.head .nav .myproject{
     width: 98%;
     border-left: solid 1px #000;
     border-top: solid 1px #000;
