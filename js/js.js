@@ -1,3 +1,4 @@
+/*导航部分*/
 function changeNav(){
 	var home = document.getElementById("home");
 	home.style.borderBottom = "solid 1px #000";
