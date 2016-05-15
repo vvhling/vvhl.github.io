@@ -5,6 +5,7 @@ function changeNav(){
 	home.style.borderLeft =  "none";
 	home.style.borderTop =  "none";
 	home.style.borderRight =  "none";
+	home.style.width = "100%";
 }
 function changeNavOut(){
 	var home = document.getElementById("home");
@@ -12,5 +13,6 @@ function changeNavOut(){
 	home.style.borderLeft =  "solid 1px #000";
 	home.style.borderTop =  "solid 1px #000";
 	home.style.borderRight =  "solid 1px #000";
+	home.style.width = "98%";
 }
 
