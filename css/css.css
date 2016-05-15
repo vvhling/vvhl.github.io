@@ -137,22 +137,25 @@ body{
     width: 100%;
     height: 60px;
 }
-.content .leftpart .article_footer dl{
-    margin-right: 8%;
-}
 .content .leftpart .article_footer dd{
     width: 46px;
     height: 40px;
     float: right;
-    margin-top: 20px;
+    margin-top: 26px;
 }
 .content .leftpart .article_footer dd span{
     color: #bbb;
     font-size: 12px;
 }
 .content .leftpart .article_footer .eyescount{
-    margin-top: 16px;
+    margin-top: 23px;
     margin-left: -26px;
+}
+.content .leftpart .article_footer .foot_date{
+    margin-right: 2%;
+    width: 22%;
+    margin-top: 23px;
+    letter-spacing: 1.4px;
 }
 /*右侧内容部分*/
 .content .rightpart{
