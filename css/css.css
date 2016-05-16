@@ -112,8 +112,9 @@ body{
     display: block;
 }
 .content .leftpart .article_head h4{
-    width: 50%;
+    width: 30%;
     line-height: 26px;
+    margin-left: 11%;
 }
 .content .leftpart .article_head .tips a:hover,h4:hover{
     filter: alpha(opacity=80);
