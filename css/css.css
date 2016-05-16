@@ -76,7 +76,7 @@ body{
     border-radius: 100px;
     background: #fff;
     outline-style: none;
-    color: #ccc;
+    color: #bbb;
     text-align: center;
     margin-top: 50px;
 }
@@ -184,5 +184,5 @@ body{
     display: block;
 }
 .content .rightpart .rightcontent a:hover{
-    color: #fa91b0
+    color: #e88c9b;
 }
