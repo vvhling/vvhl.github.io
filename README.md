@@ -1,1 +1,1 @@
-# 这是一个练习Javascript用的个人博客
+# 这是一个用于练习Javascript和PHP的个人博客
