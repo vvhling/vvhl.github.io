@@ -173,13 +173,15 @@ body{
     text-align: center;
     line-height: 75px;
 }
+.content .rightpart .rightcontent li{
+    width: 100%;
+}
 .content .rightpart .rightcontent a{
-    margin-right: 12%;
     line-height: 28px;
-    text-align: center;
     font-size: 14px;
-    text-indent: 40px;
     color: #494949;
+    margin: 0px auto;
+    width: 17%;
     display: block;
 }
 .content .rightpart .rightcontent a:hover{
