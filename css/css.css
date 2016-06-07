@@ -91,6 +91,7 @@ body{
 /*左边内容部分*/
 .content{
     width: 1300px;
+    height: 900px;
     margin: auto;
     position: relative;
 }
