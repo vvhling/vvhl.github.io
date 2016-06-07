@@ -90,18 +90,18 @@ body{
 }
 /*左边内容部分*/
 .content{
-    width: 1300px;
+    width: 1200px;
     margin: auto;
     position: relative;
 }
 .content .leftpart{
-    width: 970px;
+    width: 920px;
     position: absolute;
     left: 0px;
     top: 10px;
 }
 .content .leftpart li{
-    width: 970px;
+    width: 920px;
     height: 260px;
     background: #fff;
     margin-bottom: 10px;
@@ -172,14 +172,14 @@ body{
 }
 /*右侧内容部分*/
 .content .rightpart{
-    width: 320px;
+    width: 270px;
     height: 900px;
     position: absolute;
     right: 0px;
     top: 10px;
 }
 .content .rightpart .rightcontent{
-    width: 320px;
+    width: 270px;
     height: 600px;
     background: #fff;
 }
