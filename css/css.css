@@ -10,6 +10,7 @@ a{
 }
 body{
     background: #f4f4f4;
+    min-width: 1200px;
 }
 /*导航部分*/
 .head{
@@ -18,7 +19,7 @@ body{
     background: #fff;
 }
 .head .headcon{
-    width: 70%;
+    width: 1300px;
     margin: auto;
     position: relative;
 }
@@ -89,18 +90,18 @@ body{
 }
 /*左边内容部分*/
 .content{
-    width: 70%;
+    width: 1300px;
     margin: auto;
     position: relative;
 }
 .content .leftpart{
-    width: 70%;
+    width: 970px;
     position: absolute;
     left: 0px;
     top: 10px;
 }
 .content .leftpart li{
-    width: 100%;
+    width: 970px;
     height: 260px;
     background: #fff;
     margin-bottom: 10px;
@@ -171,17 +172,16 @@ body{
 }
 /*右侧内容部分*/
 .content .rightpart{
-    width: 30%;
+    width: 320px;
     height: 900px;
     position: absolute;
     right: 0px;
     top: 10px;
 }
 .content .rightpart .rightcontent{
-    width: 100%;
+    width: 320px;
     height: 600px;
     background: #fff;
-    margin-left: 10px;
 }
 .content .rightpart .rightcontent h4{
     text-align: center;
