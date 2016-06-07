@@ -172,14 +172,14 @@ body{
 }
 /*右侧内容部分*/
 .content .rightpart{
-    width: 420px;
+    width: 320px;
     height: 900px;
     position: absolute;
     right: 0px;
     top: 10px;
 }
 .content .rightpart .rightcontent{
-    width: 420px;
+    width: 320px;
     height: 600px;
     background: #fff;
 }
