@@ -10,6 +10,7 @@ a{
 }
 body{
     background: #f4f4f4;
+    min-width: 1300px;
 }
 /*导航部分*/
 .head{
@@ -17,25 +18,31 @@ body{
     height: 160px;
     background: #fff;
 }
+.head .headcon{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
 .head .logo{
-    width: 10%;
-    height: 80px;
+    width: 200px;
+    height: 40px;
     border-bottom: solid 1px #000;
-    margin-left: 11%;
-    float: left;
-    margin-top: 24px;
+    position: absolute;
+    left: 0px;
+    top: 64px;
 }
 .head .logo img{
-    margin-top: 34px;
-    width: 81%;
+    width: 154px;
+    margin-left: 16px;
+    margin-top: -6px;
 }
 .head .nav{
-    width: 50%;
+    width: 700px;
     height: 106px;
-    margin-left: 21%;
+    margin-left: 200px;
 }
 .head .nav li{
-    width: 10%;
+    width: 78px;
     float: left;
     margin-top: 68px;
 }
@@ -49,28 +56,28 @@ body{
     border-bottom: solid 1px #000;
 }
 .head .nav .article:hover,.head .nav .myproject:hover,.head .nav .star:hover{
-    width: 98%;
+    width: 76px;
     border-left: solid 1px #000;
     border-top: solid 1px #000;
     border-right: solid 1px #000;
     border-bottom: none;
 }
 .head .nav .home{
-    width: 98%;
+    width: 76px;
     border-left: solid 1px #000;
     border-top: solid 1px #000;
     border-right: solid 1px #000;
     border-bottom: none;
 }
 .head .search{
-    width: 20%;
-    height: 80px;
-    float: right;
-    margin-top: -80px;
-    margin-right: 9%;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
 .head .search .searchin{
-    width: 98%;
+    width: 150px;
     height: 30px;
     border: solid 1px #000;
     border-radius: 100px;
@@ -78,18 +85,25 @@ body{
     outline-style: none;
     color: #bbb;
     text-align: center;
-    margin-top: 50px;
+    position: absolute;
+    right: 0px;
 }
 /*左边内容部分*/
+.content{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
 .content .leftpart{
-    width: 70%;
-    float: left;
+    width: 920px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
 }
 .content .leftpart li{
-    width: 84%;
+    width: 920px;
     height: 260px;
     background: #fff;
-    margin-left: 16%;
     margin-bottom: 10px;
     padding-top: 30px;
 }
@@ -158,16 +172,16 @@ body{
 }
 /*右侧内容部分*/
 .content .rightpart{
-    width: 30%;
+    width: 370px;
     height: 900px;
-    margin-left: 70%;
-    margin-top: 10px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
 }
 .content .rightpart .rightcontent{
-    width: 70%;
+    width: 370px;
     height: 600px;
     background: #fff;
-    margin-left: 10px;
 }
 .content .rightpart .rightcontent h4{
     text-align: center;
