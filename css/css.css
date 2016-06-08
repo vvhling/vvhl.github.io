@@ -104,6 +104,7 @@ body{
 }
 .content .banner{
     width: 100%;
+    overflow: hidden;
     position: relative;
 }
 .content .banner img{
@@ -132,7 +133,7 @@ body{
 }
 .con .leftpart .article_head .tips{
     float: left;
-    width: 12%;
+    width: 120px;
     height: 30px;
 }
 .con .leftpart .article_head .tips a{
@@ -184,8 +185,8 @@ body{
     margin-left: -26px;
 }
 .con .leftpart .article_footer .foot_date{
-    margin-right: 2%;
-    width: 22%;
+
+    width: 200px;
     margin-top: 23px;
     letter-spacing: 1.4px;
 }
@@ -222,6 +223,18 @@ body{
 }
 
 
-@media screen and(max-width: 1320px){
-
+@media screen and (max-width: 1242px) {
+    .head .logo {
+        margin-left: 0%;
+    }
+    .head .search{
+        margin-right: 0%;
+    }
+    .con .rightpart{
+        display: none;
+    }
+    .con .leftpart{
+        width: 100%;
+        margin: 10px;
+    }
 }
