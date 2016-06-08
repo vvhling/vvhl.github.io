@@ -179,6 +179,7 @@ body{
     position: absolute;
     right: 24px;
     bottom: 52px;
+    cursor: text;
 }
 .con .leftpart .article_footer{
     width: 100%;
