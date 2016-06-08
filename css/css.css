@@ -153,6 +153,9 @@ body{
 .con .leftpart .article_head .head_title{
     font-size: 20px;
 }
+.con .leftpart .article_head .head_title:hover{
+    text-decoration: underline;
+}
 .con .leftpart .article_head .tips a:hover,h4:hover{
     filter: alpha(opacity=80);
     -moz-opacity: 0.8;
