@@ -57,7 +57,7 @@ body{
     height: 36px;
     border-bottom: solid 1px #000;
 }
-.head .nav .article:hover,.head .nav .myproject:hover,.head .nav .star:hover{
+.head .nav .myarticle:hover,.head .nav .myproject:hover,.head .nav .mystar:hover{
     width: 76px;
     border-left: solid 1px #000;
     border-top: solid 1px #000;
@@ -98,7 +98,6 @@ body{
     border-radius: 100px;
     background: #fff;
     outline-style: none;
-    color: #bbb;
     text-align: center;
     position: absolute;
     right: 0px;
