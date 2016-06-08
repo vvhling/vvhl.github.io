@@ -71,9 +71,9 @@ body{
     width: 280px;
     height: 30px;
     float: right;
-    position: absolute;
-    top: 56px;
-    right: 16%;
+    margin-top: 56px;
+    margin-right: 16%;
+    position: relative;
 }
 .head .search .search_icon{
     width: 30px;
@@ -229,7 +229,7 @@ body{
         margin-left: 0%;
     }
     .head .search{
-        right: 0px;
+        margin-right: 0%;
     }
     .con .rightpart{
         display: none;
