@@ -20,6 +20,7 @@ body{
     z-index: 2000;
 }
 .head .headcon{
+    position: relative;
     margin: auto;
 }
 .head .logo{
@@ -67,12 +68,12 @@ body{
     border-bottom: none;
 }
 .head .search{
-    width: 320px;
+    width: 280px;
     height: 30px;
     float: right;
-    margin-top: 60px;
-    margin-right: 16%;
-    position: relative;
+    position: absolute;
+    top: 56px;
+    right: 16%;
 }
 .head .search .search_icon{
     width: 30px;
@@ -223,12 +224,12 @@ body{
 }
 
 
-@media screen and (max-width: 1242px) {
+@media screen and (max-width: 1200px) {
     .head .logo {
         margin-left: 0%;
     }
     .head .search{
-        margin-right: 0%;
+        right: 0px;
     }
     .con .rightpart{
         display: none;
@@ -237,4 +238,7 @@ body{
         width: 100%;
         margin: 10px;
     }
+}
+@media screen and (max-width: 1200px) {
+
 }

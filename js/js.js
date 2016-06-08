@@ -9,7 +9,7 @@ $(function(){
 	});
 	//搜索框拉伸效果
 	$(".searchin").focus(function(){
-		$(".searchin").animate({width:"320px"});
+		$(".searchin").animate({width:"280px"});
 	})
 	$(".searchin").blur(function(){
 		$(".searchin").animate({width:"170px"});
