@@ -227,3 +227,10 @@ body{
 .con .rightpart .rightcontent a:hover{
     color: #e88c9b;
 }
+
+
+@media screen and(max-width: 1320px){
+.banner img{
+    width: 1300px;
+}
+}
