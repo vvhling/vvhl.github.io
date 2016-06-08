@@ -10,9 +10,15 @@ $(function(){
 	//搜索框拉伸效果
 	$(".searchin").focus(function(){
 		$(".searchin").animate({width:"280px"});
-	})
+	});
 	$(".searchin").blur(function(){
 		$(".searchin").animate({width:"170px"});
-	})
+	});
 });
-
+/*左边内容部分*/
+$(function(){
+	$(".more").click(function(){
+		$(".leftpart").css("overflow","visible");
+		$(".leftpart_foot").css("display","none");
+	});
+});
