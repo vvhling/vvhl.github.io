@@ -1,18 +1,17 @@
 /*导航部分*/
-function changeNav(){
-	var article = document.getElementById("article");
-	article.style.borderBottom = "solid 1px #000";
-	article.style.borderLeft =  "none";
-	article.style.borderTop =  "none";
-	article.style.borderRight =  "none";
-	article.style.width = "100%";
-}
-function changeNavOut(){
-	var article = document.getElementById("article");
-	article.style.borderBottom = "none";
-	article.style.borderLeft =  "solid 1px #000";
-	article.style.borderTop =  "solid 1px #000";
-	article.style.borderRight =  "solid 1px #000";
-	article.style.width = "98%";
-	
-}
+$(function(){
+    //导航菜单鼠标滑动效果  
+	$(".home,.myproject,.mystar").bind("mouseover",function(){
+		$(".myarticle").css({"border-bottom":"1px solid #000","border-left":"none","border-top":"none","border-right":"none","width":"78px"});
+	});
+	$(".myarticle,.myproject,.mystar").bind("mouseout",function(){
+		$(".myarticle").css({"border-bottom":"none","border-left":"1px solid #000","border-top":"1px solid #000","border-right":"1px solid #000","width":"76px"});
+	});
+	//搜索框拉伸效果
+	$(".searchin").focus(function(){
+		$(".searchin").animate({width:"280px"});
+	});
+	$(".searchin").blur(function(){
+		$(".searchin").animate({width:"170px"});
+	});
+});

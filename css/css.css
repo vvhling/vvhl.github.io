@@ -243,12 +243,14 @@ body{
 
 
 @media screen and (max-width: 1200px) {
+    /*导航部分*/
     .head .logo {
         margin-left: 0%;
     }
     .head .search{
         margin-right: 0%;
     }
+    /*内容部分*/
     .con .rightpart{
         display: none;
     }
@@ -256,7 +258,4 @@ body{
         width: 100%;
         margin: 10px;
     }
-}
-@media screen and (max-width: 1200px) {
-
 }
