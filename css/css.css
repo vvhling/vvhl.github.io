@@ -39,8 +39,6 @@ body{
     margin-top: -6px;
 }
 .head .nav{
-    width: 700px;
-    height: 106px;
     margin-left: 200px;
 }
 .head .nav li{
@@ -76,7 +74,7 @@ body{
     height: 30px;
     position: absolute;
     right: 0px;
-    bottom: 20px;
+    top: 60px;
 }
 .head .search .search_icon{
     width: 40px;
