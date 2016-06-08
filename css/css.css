@@ -15,8 +15,10 @@ body{
 /*导航部分*/
 .head{
     width: 100%;
-    height: 160px;
+    height: 120px;
     background: #fff;
+    position: fixed;
+    z-index: 2000;
 }
 .head .headcon{
     width: 1300px;
@@ -29,7 +31,7 @@ body{
     border-bottom: solid 1px #000;
     position: absolute;
     left: 0px;
-    top: 64px;
+    top: 44px;
 }
 .head .logo img{
     width: 154px;
@@ -44,7 +46,7 @@ body{
 .head .nav li{
     width: 78px;
     float: left;
-    margin-top: 68px;
+    margin-top: 48px;
 }
 .head .nav a{
     font-size: 15px;
@@ -70,14 +72,27 @@ body{
     border-bottom: none;
 }
 .head .search{
-    width: 300px;
+    width: 320px;
     height: 30px;
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: 20px;
+}
+.head .search .search_icon{
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow: none;
+    background: url("images/icon_search.png") no-repeat center;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    bottom: -6px;
+    outline-style: none;
 }
 .head .search .searchin{
-    width: 150px;
+    width: 170px;
     height: 30px;
     border: solid 1px #000;
     border-radius: 100px;
@@ -88,38 +103,48 @@ body{
     position: absolute;
     right: 0px;
 }
-/*左边内容部分*/
-.main{
-    width: 100%;
-}
+/*banner部分*/
 .content{
-    width: 1300px;
+    width: 100%;
     margin: auto;
     position: relative;
 }
-.content .leftpart{
+.content .banner{
+    width: 100%;
+    position: relative;
+}
+.content .banner img{
+    width: 100%;
+}
+/*左边内容部分*/
+.content .con{
+    width: 1300px;
+    position: relative;
+    margin: auto;
+}
+.con .leftpart{
     width: 970px;
     position: absolute;
     left: 0px;
     top: 10px;
 }
-.content .leftpart li{
+.con .leftpart li{
     width: 970px;
     height: 260px;
     background: #fff;
     margin-bottom: 10px;
     padding-top: 30px;
 }
-.content .leftpart .article_head{
+.con .leftpart .article_head{
     width: 100%;
     height: 26px;
 }
-.content .leftpart .article_head .tips{
+.con .leftpart .article_head .tips{
     float: left;
     width: 12%;
     height: 30px;
 }
-.content .leftpart .article_head .tips a{
+.con .leftpart .article_head .tips a{
     color: #000;
     text-align: center;
     line-height: 26px;
@@ -128,15 +153,15 @@ body{
     background: #e88c9b;
     display: block;
 }
-.content .leftpart .article_head .head_title{
+.con .leftpart .article_head .head_title{
     font-size: 20px;
 }
-.content .leftpart .article_head .tips a:hover,h4:hover{
+.con .leftpart .article_head .tips a:hover,h4:hover{
     filter: alpha(opacity=80);
     -moz-opacity: 0.8;
     opacity: 0.8;
 }
-.content .leftpart p{
+.con .leftpart p{
     font-size: 14px;
     letter-spacing: 1.4px;
     margin: 20px;
@@ -144,56 +169,56 @@ body{
     line-height: 25px;
     color: #494949;
 }
-.content .leftpart .article_content{
+.con .leftpart .article_content{
     width: 100%;
     height: 170px;
     overflow: hidden;
 }
-.content .leftpart .article_footer{
+.con .leftpart .article_footer{
     width: 100%;
     height: 60px;
 }
-.content .leftpart .article_footer dd{
+.con .leftpart .article_footer dd{
     width: 46px;
     height: 40px;
     float: right;
     margin-top: 26px;
 }
-.content .leftpart .article_footer dd span{
+.con .leftpart .article_footer dd span{
     color: #bbb;
     font-size: 12px;
 }
-.content .leftpart .article_footer .eyescount{
+.con .leftpart .article_footer .eyescount{
     margin-top: 23px;
     margin-left: -26px;
 }
-.content .leftpart .article_footer .foot_date{
+.con .leftpart .article_footer .foot_date{
     margin-right: 2%;
     width: 22%;
     margin-top: 23px;
     letter-spacing: 1.4px;
 }
 /*右侧内容部分*/
-.content .rightpart{
+.con .rightpart{
     width: 320px;
     height: 900px;
     position: absolute;
     right: 0px;
     top: 10px;
 }
-.content .rightpart .rightcontent{
+.con .rightpart .rightcontent{
     width: 320px;
     height: 600px;
     background: #fff;
 }
-.content .rightpart .rightcontent h4{
+.con .rightpart .rightcontent h4{
     text-align: center;
     line-height: 75px;
 }
-.content .rightpart .rightcontent li{
+.con .rightpart .rightcontent li{
     width: 100%;
 }
-.content .rightpart .rightcontent a{
+.con .rightpart .rightcontent a{
     line-height: 28px;
     font-size: 14px;
     color: #494949;
@@ -201,6 +226,6 @@ body{
     width: 17%;
     display: block;
 }
-.content .rightpart .rightcontent a:hover{
+.con .rightpart .rightcontent a:hover{
     color: #e88c9b;
 }
