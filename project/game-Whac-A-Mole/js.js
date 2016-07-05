@@ -19,6 +19,24 @@ $(function(){
 	}
 	var a = setInterval(function(){
     	radom();
-    },700)
+    },1000);
 
-})
+    var clickTimes = function(){
+        var x = 0;
+        x++;
+        $(".box").click(function(){
+            $(this).css("background","#fff");
+        });
+        return x;
+    };
+    //var cliFn = function(){
+    //    var cliNum = 0; //点击的初始值为0
+    //    $(".box").addEventListener("click",function(){
+    //        cliNum ++;
+    //    });
+    //    return cliNum;
+    //}
+    window.onload = function(){
+        $(".score").html("分数：" + clickTimes());
+    }
+});
