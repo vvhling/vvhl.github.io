@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#Box{
+  width: 306px;
+  height: 306px;
+  border: 1px solid #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -153px;
+  margin-top: -153px;
+}
+li{
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 1px solid #000;
+  background: #fff;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
