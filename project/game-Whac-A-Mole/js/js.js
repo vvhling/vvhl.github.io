@@ -32,7 +32,7 @@
 
 $(function(){
     var randomA = function(){  //返回一个随机的a
-        var a = document.getElementsByClassName("mouse");
+        var a = $(".mouse");
         for(var i = 0;i < a.length;i ++){
             $(a[i]).animate({height:"90px"});
         }
