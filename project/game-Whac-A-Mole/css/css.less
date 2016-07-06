@@ -1,0 +1,176 @@
+//色值
+@bgColor: #e8ded0;
+@white: #fff;
+@mainColor: #3a251d;
+@yellow: #f0b16e;
+
+//通用样式
+@iconWidth: 30px;
+@margin: 20px;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: @bgColor;
+}
+//内容部分
+.header{
+  height: 188px;
+  position: relative;
+  .bg{
+    width: 100%;
+  }
+  .icon-stop{
+    position: absolute;
+    top: @margin - 8px;
+    left: @margin;
+    img{
+      width: @iconWidth;
+    }
+  }
+  .icon-share{
+    position: absolute;
+    right: @margin;
+    top: @margin - 8px;
+    img{
+      width: @iconWidth;
+    }
+  }
+  .time{
+    position: absolute;
+    top: @margin - 4px;
+    left: 50%;
+    margin-left: -25px;
+    text-align: center;
+    color: @white;
+    font-size: 20px;
+  }
+}
+.main{
+  position: relative;
+  .bg{
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+  }
+  .score{
+    width: 170px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -80px;
+    margin-top: -70px;
+    img{
+      width: 80px;
+    }
+    span{
+      font-size: 44px;
+      font-weight: bold;
+      color: @mainColor;
+    }
+  }
+}
+.hole{
+  width: 312px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -156px;
+  li{
+    width: 100px;
+    height: 80px;
+    float: left;
+    list-style: none;
+    margin-left: 4px;
+    position: relative;
+    top: 40px;
+    overflow: hidden;
+    margin-top: 30px;
+    cursor: pointer;
+    img{
+     width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+    .hole2{
+      width: 60px;
+      position: absolute;
+      left: 50%;
+      margin-left: -28px;
+      bottom: 20px;
+      z-index: -2;
+    }
+    .mouse{
+      width: 60px;
+      height: 90px; //150px时伸出头
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      z-index: -2;
+      margin-left: -27px;
+      bottom: -85px;
+      img{
+        width: 54px;
+        margin-left: 2px;
+        position: absolute;
+        top: 0;
+      }
+    }
+    .box{
+      width: 60px;
+      height: 75px;
+      display: inline-block;
+      overflow: hidden;
+      position: absolute;
+      left: 50%;
+      top: -10px;
+      margin-left: -30px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
