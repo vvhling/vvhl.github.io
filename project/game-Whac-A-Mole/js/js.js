@@ -31,17 +31,24 @@
 //});
 
 $(function(){
-    var radomLi = function(){  //返回一个随机的li
-        var li = $("li");
-        //for(var i = 0;i < li.length;i ++){  //先遍历li 使它成为初始状态
-        //    li[i.$("mouse")].animate({height:"90px"});
-        //}
-        var radomNum = Math.floor(Math.random() * li.length);
-        return li[radomNum];
-    }
-    alert($("radomLi.mouse").tagName);
-    $("radomLi.mouse").animate({height:"150px"});
+    var randomA = function(){  //返回一个随机的a
+        var a = document.getElementsByClassName("mouse");
+        for(var i = 0;i < a.length;i ++){
+            $(a[i]).animate({height:"90px"});
+        }
+        var randomNum = Math.floor(Math.random() * a.length);
+        return a[randomNum];
+    };
+    setInterval(function(){
+        $(randomA()).animate({height:"150px"});
+    },2000)
+
+    $("li").click(function(){
+        $(this).find("a").animate({height:"90px"});
+    });
+
 });
+
 
 
 
