@@ -1,7 +1,4 @@
-window.addEventListener('load', function() { //调用FastClick
-    FastClick.attach(document.body);
-}, false);
-
+//随机事件
 var randomA = function(){  //返回一个随机的a
     var a = $(".mouse");
     for(var i = 0;i < a.length;i ++){  //先遍历一遍a元素让它为初始状态
@@ -26,6 +23,13 @@ function clickMouse(){  //老鼠点击事件
     });
 }
 clickMouse();
+
+//倒计时时钟
+function countdown(){
+
+}
+countdown();
+
 
 
 
