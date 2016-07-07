@@ -11,7 +11,6 @@ var randomA = function(){  //返回一个随机的a
 
 var randomColor = function(){  //返回一个随机颜色的老鼠
     var arrColor = [
-        "images/mouse.png",
         "images/mouse-red.png",
         "images/mouse-green.png",
         "images/mouse-blue.png",
@@ -20,9 +19,9 @@ var randomColor = function(){  //返回一个随机颜色的老鼠
     var randomClo = Math.floor(Math.random() * arrColor.length);
     return arrColor[randomClo];
 };
+    console.log(randomColor());
 
-randomColor();
-randomA.children("img").attr("src","images/mouse-red.png");
+$(randomA()).children("img").src = randomColor();
 
 setInterval(function(){  //设置一个定时器
     $(randomA()).animate({height:"150px"});
