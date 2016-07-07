@@ -1,3 +1,4 @@
+$(function(){
 //随机事件
 var randomA = function(){  //返回一个随机的a
     var a = $(".mouse");
@@ -7,6 +8,21 @@ var randomA = function(){  //返回一个随机的a
     var randomNum = Math.floor(Math.random() * a.length);
     return a[randomNum];
 };
+
+var randomColor = function(){  //返回一个随机颜色的老鼠
+    var arrColor = [
+        "images/mouse.png",
+        "images/mouse-red.png",
+        "images/mouse-green.png",
+        "images/mouse-blue.png",
+        "images/mouse-black.png"
+    ];
+    var randomClo = Math.floor(Math.random() * arrColor.length);
+    return arrColor[randomClo];
+};
+
+randomColor();
+randomA.children("img").attr("src","images/mouse-red.png");
 
 setInterval(function(){  //设置一个定时器
     $(randomA()).animate({height:"150px"});
@@ -29,6 +45,8 @@ function countdown(){
 
 }
 countdown();
+
+});
 
 
 
