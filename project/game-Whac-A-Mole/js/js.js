@@ -17,7 +17,7 @@ setInterval(function(){  //设置一个定时器
 
 function clickMouse(){  //老鼠点击事件
     var c = 0;
-    $("li").click(function(){
+    $("li").onTouchStart(function(){
         if($(this).find("a").height() == 150){
             c ++;
             $(".num").html(c);
