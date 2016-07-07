@@ -3,6 +3,7 @@ $(function(){
 function random(){
     var arrColor = [
         "images/mouse.png",
+        "images/mouse.png",
         "images/mouse-black.png",
         "images/mouse-red.png",
         "images/mouse-green.png",
@@ -20,11 +21,8 @@ function random(){
         var randomNum = Math.floor(Math.random() * a.length);
         return a[randomNum];
     };
+    $(randomA()).children("img").attr("src",randomColor());
     $(randomA()).animate({height:"150px"});
-    if($(randomA()).height != "150px"){
-        $(randomA()).children("img").attr("src",randomColor());
-    }
-
 }
 setInterval(function(){  //设置一个定时器
     random();
